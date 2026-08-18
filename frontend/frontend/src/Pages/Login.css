@@ -1,0 +1,38 @@
+/* 1. Poori screen ke center mein form ko laane ke liye */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 2. Login Card Box jismein saara content vertical (ek ke neeche ek) hoga */
+.login-card {
+  display: flex;
+  flex-direction: column; /* Inputs aur button ko vertically line up karega */
+  gap: 15px;             /* Har item ke darmiyan spacing */
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* 3. Inputs ki width aur padding sahi karne ke liye */
+.login-card input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* 4. Button ki styling */
+.login-card button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}

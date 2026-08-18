@@ -1,12 +1,14 @@
-import Button from "./Components/Button";
-import Input from "./Components/Input";
+import Button from './Components/Button';
+import Input from './Components/Input';
+import Login from './Pages/Login';
+import React from 'react';
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <h1>E-commerece website</h1>
-      <input placeholder="Enter your name"/>
-      <Button>Click me</Button>
+      <Login/>
     </div>
-  )
+  );
 }
+
+export default App;
